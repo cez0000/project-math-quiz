@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 213, 255);
+}
+
+section.level {
+    text-align: center;
+    margin-top: 100px;
+}
+
+section.level h1 {
+    font-size: 40px;
+    font-family: arial;
+    margin-bottom: 25px;
+}
+
+section.level span {
+    font-size: 24px;
+    font-family: arial;
+}
+
+section.level input {
+    width: 100px;
+    border: 3px solid red;
+    height: 30px;
+    font-size: 24px;
+}
+
+section.level button {
+    cursor: pointer;
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    margin-top: 25px;
+    font-size: 25px;
+    padding: 10px;
+    width: 100px;
+    transition: .2s;
+}
+
+section.level button:hover {
+    color: white;
+     background-color: black;
+    border: 3px solid white;
+}
+
+section.results {
+    text-align: center;
+    margin-top: 50px;
+}
+
+section.results li {
+    font-size: 26px;
+    font-family: arial;
+}
+
+section.results ul {
+    margin-top: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.levelBtn {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+    border: 3px solid darkblue;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px 10px;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.levelBtn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.grats {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(124, 4, 215);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
